@@ -33,10 +33,11 @@
   ul {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0px;
   }
   
   .container {
-    width: 1200px;
+    width: 1230px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -135,6 +136,7 @@
   }
   ul {
     list-style: none;
+    padding: 0
   }
   
   span {
@@ -203,6 +205,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    padding-bottom: 10px
   }
   
   .features .text {
@@ -226,11 +229,8 @@
   
   .container.images {
     padding-bottom: 94px;
-  }
-  
-  .image:not(:last-child) {
-    flex-basis: calc((100% - 60px) / 3);
-    margin-right: 30px;
+    padding-left: 0px;
+    
   }
   
   .section-title {
@@ -242,6 +242,10 @@
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+  }
+  .image:not(:last-child) {
+    flex-basis: calc((100% - 60px) / 3);
+    margin-right: 30px;
   }
   
   /* Наша команда */
@@ -334,6 +338,7 @@
   .footer-contacts-list-link {
     color: rgba(255, 255, 255, 0.6);
     padding-left: 0;
+    padding-top: 9px;
   }
   .footer-contacts-list-link:hover,
   .footer-contacts-list-link:focus {
@@ -355,7 +360,7 @@
   .buttons {
     display: flex;
     justify-content: center;
-    margin-top: 94px;
+    padding-top: 94px;
     padding-bottom: 50px;
   }
   .buttons li:not(:last-child) {
@@ -386,6 +391,7 @@
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    padding-bottom: 94px;
   }
   .projects-link:nth-child(3n+1)
   {margin-left: 0px;}
