@@ -189,7 +189,6 @@
     margin-top: 0%;
     margin-bottom: 0%;
     padding-top: 94px;
-    padding-bottom: 94px;
   }
    .list-style { 
     display: flex;
@@ -228,7 +227,7 @@
   }
   
   .container.images {
-    padding-bottom: 94px;
+    padding-bottom: 0px;
     padding-left: 0px;
     
   }
